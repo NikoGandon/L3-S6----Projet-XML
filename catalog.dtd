@@ -1,0 +1,17 @@
+<!ELEMENT catalogue (fournisseurs, article)>
+<!ELEMENT fournisseurs (fournisseur+)>
+<!ELEMENT fournisseur (nom, adresse, ville, codepostal, pays)>
+<!ATTLIST fournisseur id ID #REQUIRED>
+
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT ville (#PCDATA)>
+<!ELEMENT codepostal (#PCDATA)>
+<!ELEMENT pays (#PCDATA)>
+
+<!--DTD pour les articles-->
+<!ELEMENT article (produit+)>
+<!ELEMENT produit (nom, prix, quantite)>
+<!ATTLIST produit id ID #REQUIRED>
+<!ELEMENT fournisseurRef (#PCDATA)>
+<!ATTLIST fournisseurRef id IDREF #REQUIRED>
