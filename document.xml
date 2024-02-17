@@ -1,2 +1,98 @@
+<!-- Auteur : Nikola Gandon & Maximilien Poncet-->
+
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE catalog SYSTEM "catalog.dtd">
+<catalog>
+    <fournisseurs>
+        <fournisseur>
+            <id>0</id>
+            <nom>Entreprise A</nom>
+            <adresse>
+                <rue>1 rue de la paix</rue>
+                <codePostal>75000</codePostal>
+                <ville>Paris</ville>
+                <pays>France</pays>
+            </adresse>
+            <contact>
+                <email>contact@entrepriseA.com</email>
+                <telephone>01 54 56 85 11</telephone>
+            </contact>
+        </fournisseur>
+        <fournisseur>
+            <id>1</id>
+            <nom>Entreprise B</nom>
+            <adresse>
+                <rue>2 rue de la paix</rue>
+                <codePostal>75000</codePostal>
+                <ville>Paris</ville>
+                <pays>France</pays>
+            </adresse>
+            <contact>
+                <email>contact@entrepriseB.com</email>
+                <telephone>01 54 56 85 13</telephone>
+            </contact>
+        </fournisseur>
+    </fournisseurs>
+
+    <articles>
+        <article>
+            <id>1</id>
+            <designation>Chaise</designation>
+            <prix>50</prix>
+            <fournisseurID>0</fournisseurID>
+        </article>
+        <article>
+            <id>4</id>
+            <designation>Table</designation>
+            <prix>100</prix>
+            <fournisseurID>1</fournisseurID>
+        </article>
+        <article>
+            <id>3</id>
+            <designation>Canapé</designation>
+            <prix>200</prix>
+            <fournisseurID>0</fournisseurID>
+        </article>
+        <article>
+            <id>4</id>
+            <designation>Fauteuil</designation>
+            <prix>50</prix>
+            <fournisseurID>1</fournisseurID>
+        </article>
+        <article>
+            <id>5</id>
+            <designation>Tabouret</designation>
+            <prix>100</prix>
+            <fournisseurID>0</fournisseurID>
+        </article>
+        <article>
+            <id>6</id>
+            <designation>Ilot</designation>
+            <prix>200</prix>
+            <fournisseurID>1</fournisseurID>
+        </article>
+        <article>
+            <id>7</id>
+            <designation>Porte</designation>
+            <prix>50</prix>
+            <fournisseurID>0</fournisseurID>
+        </article>
+        <article>
+            <id>8</id>
+            <designation>Double porte</designation>
+            <prix>100</prix>
+            <fournisseurID>1</fournisseurID>
+        </article>
+        <article>
+            <id>9</id>
+            <designation>Table basse</designation>
+            <prix>200</prix>
+            <fournisseurID>0</fournisseurID>
+        </article>
+        <article>
+            <id>10</id>
+            <designation>Canapé lit</designation>
+            <prix>200</prix>
+            <fournisseurID>0</fournisseurID>
+        </article>
+    </articles>
+</catalog>
