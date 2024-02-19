@@ -1,5 +1,4 @@
 <!-- Auteur : Nikola Gandon & Maximilien Poncet-->
-
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="catalog">
         <xs:complexType>
@@ -17,9 +16,16 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element ref="nom" />
-                            <xs:element ref="adresse" />
-                            <xs:element ref="ville" />
-                            <xs:element ref="pays" />
+                            <xs:element ref="adresse">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="rue" type="xs:string"/>
+                                        <xs:element name="codePostal" type="xs:string"/>
+                                        <xs:element name="ville" type="xs:string"/>
+                                        <xs:element name="pays" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>

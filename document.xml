@@ -1,10 +1,8 @@
-<!-- Auteur : Nikola Gandon & Maximilien Poncet-->
-
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM "catalog.dtd">
 <catalog>
     <fournisseurs>
-        <fournisseur>
-            <id>0</id>
+        <fournisseur id="EntrA">
             <nom>Entreprise A</nom>
             <adresse>
                 <rue>1 rue de la paix</rue>
@@ -17,8 +15,7 @@
                 <telephone>01 54 56 85 11</telephone>
             </contact>
         </fournisseur>
-        <fournisseur>
-            <id>1</id>
+        <fournisseur id="EntrB">
             <nom>Entreprise B</nom>
             <adresse>
                 <rue>2 rue de la paix</rue>
@@ -31,67 +28,133 @@
                 <telephone>01 54 56 85 13</telephone>
             </contact>
         </fournisseur>
+        <fournisseur id="EntrC">
+            <nom>Entreprise C</nom>
+            <adresse>
+                <rue>3 rue de la paix</rue>
+                <codePostal>75000</codePostal>
+                <ville>Paris</ville>
+                <pays>France</pays>
+            </adresse>
+            <contact>
+                <email>contact@entrepriseC.com</email>
+                <telephone>01 54 56 85 15</telephone>
+            </contact>
+        </fournisseur>
+        <fournisseur id="EntrD">
+            <nom>Entreprise D</nom>
+            <adresse>
+                <rue>4 rue de la paix</rue>
+                <codePostal>75000</codePostal>
+                <ville>Paris</ville>
+                <pays>France</pays>
+            </adresse>
+            <contact>
+                <email>contact@entrepriseD.com</email>
+                <telephone>01 54 56 85 17</telephone>
+            </contact>
+        </fournisseur>
     </fournisseurs>
 
     <articles>
-        <article>
-            <id>1</id>
+        <article id="chaiseSimple">
             <designation>Chaise</designation>
             <prix>50</prix>
             <fournisseurID>0</fournisseurID>
         </article>
-        <article>
-            <id>4</id>
+        <article id="tableSimple">
             <designation>Table</designation>
             <prix>100</prix>
             <fournisseurID>1</fournisseurID>
         </article>
-        <article>
-            <id>3</id>
+        <article id="canapeSimple">
             <designation>Canapé</designation>
             <prix>200</prix>
             <fournisseurID>0</fournisseurID>
         </article>
-        <article>
-            <id>4</id>
+        <article id="fauteuilSimple">
             <designation>Fauteuil</designation>
             <prix>50</prix>
             <fournisseurID>1</fournisseurID>
         </article>
-        <article>
-            <id>5</id>
+        <article id="tabouret">
             <designation>Tabouret</designation>
             <prix>100</prix>
             <fournisseurID>0</fournisseurID>
         </article>
-        <article>
-            <id>6</id>
+        <article id="ilot">
             <designation>Ilot</designation>
             <prix>200</prix>
             <fournisseurID>1</fournisseurID>
         </article>
-        <article>
-            <id>7</id>
+        <article id="porte">
             <designation>Porte</designation>
             <prix>50</prix>
             <fournisseurID>0</fournisseurID>
         </article>
-        <article>
-            <id>8</id>
+        <article id="doublePorte">
             <designation>Double porte</designation>
             <prix>100</prix>
             <fournisseurID>1</fournisseurID>
         </article>
-        <article>
-            <id>9</id>
+        <article id="tableBasse">
             <designation>Table basse</designation>
             <prix>200</prix>
             <fournisseurID>0</fournisseurID>
         </article>
-        <article>
-            <id>10</id>
+        <article id="canapeLit">
             <designation>Canapé lit</designation>
             <prix>200</prix>
+            <fournisseurID>0</fournisseurID>
+        </article>
+        <article id="canapeAngle">
+            <designation>Canapé d'angle</designation>
+            <prix>1500</prix>
+            <fournisseurID>3</fournisseurID>
+        </article>
+        <article id="canape3Places">
+            <designation>Canapé 3 places</designation>
+            <prix>1500</prix>
+            <fournisseurID>3</fournisseurID>
+        </article>
+        <article id="canapeU">
+            <designation>Canapé forme U</designation>
+            <prix>3000</prix>
+            <fournisseurID>3</fournisseurID>
+        </article>
+        <article id="canapeRond">
+            <designation>Canapé Rond</designation>
+            <prix>15000</prix>
+            <fournisseurID>3</fournisseurID>
+        </article>
+        <article id="litDouble">
+            <designation>Lit Double</designation>
+            <prix>350</prix>
+            <fournisseurID>2</fournisseurID>
+        </article>
+        <article id="litQueenSize">
+            <designation>Lit Queen Size</designation>
+            <prix>750</prix>
+            <fournisseurID>2</fournisseurID>
+        </article>
+        <article id="litKingSize">
+            <designation>Lit King Size</designation>
+            <prix>12000</prix>
+            <fournisseurID>2</fournisseurID>
+        </article>
+        <article id="litSuperKing">
+            <designation>Lit super king size</designation>
+            <prix>18000</prix>
+            <fournisseurID>2</fournisseurID>
+        </article>
+        <article id="frigoAmericain">
+            <designation>Frigo americain</designation>
+            <prix>250</prix>
+            <fournisseurID>0</fournisseurID>
+        </article>
+        <article id="planTravail">
+            <designation>Plan de travail</designation>
+            <prix>1200</prix>
             <fournisseurID>0</fournisseurID>
         </article>
     </articles>
