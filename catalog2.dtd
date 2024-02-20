@@ -1,0 +1,29 @@
+<!-- Auteur : Nikola Gandon & Maximilien Poncet-->
+
+<!ELEMENT catalog (fournisseurs, articles)>
+
+<!-- Fournisseurs -->
+<!ELEMENT fournisseurs (fournisseur+)>
+<!ELEMENT fournisseur (nom, adresse, contact)>
+<!ATTLIST fournisseur id ID #REQUIRED>
+<!ELEMENT nom (#PCDATA)>
+
+<!-- Adresse -->
+<!ELEMENT adresse (rue, codePostal, ville, pays)>
+<!ELEMENT rue (#PCDATA)>
+<!ELEMENT codePostal (#PCDATA)>
+<!ELEMENT ville (#PCDATA)>
+<!ELEMENT pays (#PCDATA)>
+
+<!-- Contact -->
+<!ELEMENT contact (email, telephone)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+
+<!-- Articles -->
+<!ELEMENT articles (article+)>
+<!ELEMENT article (designation, prix, fournisseurID)>
+<!ATTLIST article id ID #REQUIRED>
+<!ELEMENT designation (#PCDATA)>
+<!ELEMENT prix (#PCDATA)>
+<!ELEMENT fournisseurID (#PCDATA)>
