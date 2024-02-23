@@ -22,8 +22,8 @@
 
 <!-- Articles -->
 <!ELEMENT articles (article+)>
-<!ELEMENT article (designation, prix, fournisseurID)>
+<!ELEMENT article (nomArticle, prix, fournisseurID)>
 <!ATTLIST article id ID #REQUIRED>
-<!ELEMENT designation (#PCDATA)>
+<!ELEMENT nomArticle (#PCDATA)>
 <!ELEMENT prix (#PCDATA)>
 <!ELEMENT fournisseurID (#PCDATA)>

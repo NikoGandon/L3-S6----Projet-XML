@@ -29,7 +29,7 @@
 
     <xs:complexType name="articleType">
         <xs:sequence>
-            <xs:element name="designation" type="xs:string"/>
+            <xs:element name="nomArticle" type="xs:string"/>
             <xs:element name="prix" type="xs:decimal"/>
             <xs:element name="fournisseurID" type="xs:IDREF" minOccurs="1" />
         </xs:sequence>
@@ -58,7 +58,7 @@
     <xs:element name="articles">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="article" type="articleType" maxOccurs="unbounded" />
+                <xs:element name="article" type="articleType" minOccurs="1" maxOccurs="unbounded" />
             </xs:sequence>
         </xs:complexType>
     </xs:element>

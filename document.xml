@@ -32,52 +32,52 @@
 
     <articles>
         <article id="chaiseSimple">
-            <designation>Chaise</designation>
+            <nomArticle>Chaise</designation>
             <prix>50</prix>
             <fournisseurID>0</fournisseurID>
         </article>
         <article id="tableSimple">
-            <designation>Table</designation>
+            <nomArticle>Table</designation>
             <prix>100</prix>
             <fournisseurID>1</fournisseurID>
         </article>
         <article id="canapeSimple">
-            <designation>Canapé</designation>
+            <nomArticle>Canapé</designation>
             <prix>200</prix>
             <fournisseurID>0</fournisseurID>
         </article>
         <article id="fauteuilSimple">
-            <designation>Fauteuil</designation>
+            <nomArticle>Fauteuil</designation>
             <prix>50</prix>
             <fournisseurID>1</fournisseurID>
         </article>
         <article id="tabouret">
-            <designation>Tabouret</designation>
+            <nomArticle>Tabouret</designation>
             <prix>100</prix>
             <fournisseurID>0</fournisseurID>
         </article>
         <article id="ilot">
-            <designation>Ilot</designation>
+            <nomArticle>Ilot</designation>
             <prix>200</prix>
             <fournisseurID>1</fournisseurID>
         </article>
         <article id="porte">
-            <designation>Porte</designation>
+            <nomArticle>Porte</designation>
             <prix>50</prix>
             <fournisseurID>0</fournisseurID>
         </article>
         <article id="doublePorte">
-            <designation>Double porte</designation>
+            <nomArticle>Double porte</designation>
             <prix>100</prix>
             <fournisseurID>1</fournisseurID>
         </article>
         <article id="tableBasse">
-            <designation>Table basse</designation>
+            <nomArticle>Table basse</designation>
             <prix>200</prix>
             <fournisseurID>0</fournisseurID>
         </article>
         <article id="canapeLit">
-            <designation>Canapé lit</designation>
+            <nomArticle>Canapé lit</designation>
             <prix>200</prix>
             <fournisseurID>0</fournisseurID>
         </article>
