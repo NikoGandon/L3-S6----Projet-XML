@@ -62,102 +62,102 @@
         <article id="chaiseSimple">
             <nomArticle>Chaise</nomArticle>
             <prix>50</prix>
-            <fournisseurID>0</fournisseurID>
+            <fournisseurID>EntrA</fournisseurID>
         </article>
         <article id="tableSimple">
             <nomArticle>Table</nomArticle>
             <prix>100</prix>
-            <fournisseurID>1</fournisseurID>
+            <fournisseurID>EntrB</fournisseurID>
         </article>
         <article id="canapeSimple">
             <nomArticle>Canapé</nomArticle>
             <prix>200</prix>
-            <fournisseurID>0</fournisseurID>
+            <fournisseurID>EntrA</fournisseurID>
         </article>
         <article id="fauteuilSimple">
             <nomArticle>Fauteuil</nomArticle>
             <prix>50</prix>
-            <fournisseurID>1</fournisseurID>
+            <fournisseurID>EntrB</fournisseurID>
         </article>
         <article id="tabouret">
             <nomArticle>Tabouret</nomArticle>
             <prix>100</prix>
-            <fournisseurID>0</fournisseurID>
+            <fournisseurID>EntrA</fournisseurID>
         </article>
         <article id="ilot">
             <nomArticle>Ilot</nomArticle>
             <prix>200</prix>
-            <fournisseurID>1</fournisseurID>
+            <fournisseurID>EntrB</fournisseurID>
         </article>
         <article id="porte">
             <nomArticle>Porte</nomArticle>
             <prix>50</prix>
-            <fournisseurID>0</fournisseurID>
+            <fournisseurID>EntrA</fournisseurID>
         </article>
         <article id="doublePorte">
             <nomArticle>Double porte</nomArticle>
             <prix>100</prix>
-            <fournisseurID>1</fournisseurID>
+            <fournisseurID>EntrB</fournisseurID>
         </article>
         <article id="tableBasse">
             <nomArticle>Table basse</nomArticle>
             <prix>200</prix>
-            <fournisseurID>0</fournisseurID>
+            <fournisseurID>EntrA</fournisseurID>
         </article>
         <article id="canapeLit">
             <nomArticle>Canapé lit</nomArticle>
             <prix>200</prix>
-            <fournisseurID>0</fournisseurID>
+            <fournisseurID>EntrA</fournisseurID>
         </article>
         <article id="canapeAngle">
             <nomArticle>Canapé d'angle</nomArticle>
             <prix>1500</prix>
-            <fournisseurID>3</fournisseurID>
+            <fournisseurID>EntrD</fournisseurID>
         </article>
         <article id="canape3Places">
             <nomArticle>Canapé 3 places</nomArticle>
             <prix>1500</prix>
-            <fournisseurID>3</fournisseurID>
+            <fournisseurID>EntrD</fournisseurID>
         </article>
         <article id="canapeU">
             <nomArticle>Canapé forme U</nomArticle>
             <prix>3000</prix>
-            <fournisseurID>3</fournisseurID>
+            <fournisseurID>EntrD</fournisseurID>
         </article>
         <article id="canapeRond">
             <nomArticle>Canapé Rond</nomArticle>
             <prix>15000</prix>
-            <fournisseurID>3</fournisseurID>
+            <fournisseurID>EntrD</fournisseurID>
         </article>
         <article id="litDouble">
             <nomArticle>Lit Double</nomArticle>
             <prix>350</prix>
-            <fournisseurID>2</fournisseurID>
+            <fournisseurID>EntrC</fournisseurID>
         </article>
         <article id="litQueenSize">
             <nomArticle>Lit Queen Size</nomArticle>
             <prix>750</prix>
-            <fournisseurID>2</fournisseurID>
+            <fournisseurID>EntrC</fournisseurID>
         </article>
         <article id="litKingSize">
             <nomArticle>Lit King Size</nomArticle>
             <prix>12000</prix>
-            <fournisseurID>2</fournisseurID>
+            <fournisseurID>EntrC</fournisseurID>
         </article>
         <article id="litSuperKing">
             <nomArticle>Lit super king size</nomArticle>
             <prix>18000</prix>
-            <fournisseurID>2</fournisseurID>
+            <fournisseurID>EntrC</fournisseurID>
         </article>
         <article id="frigoAmericain">
             <nomArticle>Frigo americain</nomArticle>
             <prix>250</prix>
-            <fournisseurID>0</fournisseurID>
+            <fournisseurID>EntrA</fournisseurID>
         </article>
         <article id="planTravail">
             <nomArticle>Plan de travail</nomArticle>
             <prix>1200</prix>
-            <fournisseurID>0</fournisseurID>
+            <fournisseurID>EntrA</fournisseurID>
         </article>
     </articles>
 </catalog>
