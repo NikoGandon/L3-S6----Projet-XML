@@ -9,6 +9,7 @@
             <xs:element name="adresse" type="adresseType" />
             <xs:element name="contact" type="contactType" />
         </xs:sequence>
+        <xs:attribute name="id" type="xs:ID" use="required" />
     </xs:complexType>
 
     <xs:complexType name="adresseType">
